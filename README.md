@@ -29,6 +29,7 @@ git checkout 나
 git merge main
 ```
 5. 충돌을 확인하였습니다.
+
    ![img.png](img/img.png)
    ![img_1.png](img/img_1.png)
 6. 해당 파일을 클릭하여 수정을 위한 Merge 창을 엽니다.
@@ -70,7 +71,9 @@ git add Main.java
 git rebase --continue
 ```
 커밋이 3개라면 이 stage에 올리고 rebase를 continue 하는 과정을 3번 반복할 수 있습니다.
+
 ![img_8.png](img/img_8.png)
+
 ![img_9.png](img/img_9.png)
 
 6. git rebase로 인해 원격 저장소에 있는 브랜치와 로컬 브랜치가 달라졌기 때문에 일반적인 push가 안됩니다.
@@ -86,6 +89,7 @@ git push origin 나 --force
 ![img_12.png](img/img_12.png)
 
 apply 후 import를 정리합니다.
+
 ![img_13.png](img/img_13.png)
 
 `ctrl`+`option`+`O` 를 누르면 자동으로 정리됩니다.
